@@ -56,7 +56,7 @@ export class ClassApp extends React.Component {
 
         return (
             <div className="container">
-                <span className="title">Test app</span>
+                <span className="title">Class app</span>
                 <div className="textField">
                     <label for="someText">Enter some text</label>
                     <input

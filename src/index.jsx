@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import {ClassApp} from "./ClassApp";
+import {HookApp} from "./HookApp";
 
 ReactDOM.render(
-    <ClassApp value="123"/>,
+    <HookApp value="123"/>,
     document.getElementById("app")
 );
 module.hot.accept();
